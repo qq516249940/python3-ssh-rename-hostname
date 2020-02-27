@@ -17,6 +17,7 @@ def ssh_client(ip,hostname):
 
     for i in stdout.readlines():
         print(i)
+    ssh.close()  
 
 
 
